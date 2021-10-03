@@ -11,9 +11,7 @@ import com.trateg.basemvp.profile.ProfilePresenter
 import com.trateg.basemvp.settings.SettingsPresenter
 import kotlinx.android.synthetic.main.activity_main.*
 
-/**
- * Created by hanilozmen on 8/24/2019.
- */
+
 class MainActivity : BaseActivity(), MainContract.View {
 
     private var mPresenter: MainContract.Presenter? = null

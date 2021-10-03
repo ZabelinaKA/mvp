@@ -9,9 +9,7 @@ import com.trateg.basemvp.BaseFragment
 import com.trateg.basemvp.R
 import kotlinx.android.synthetic.main.fragment_home.*
 
-/**
- * Created by hanilozmen on 8/24/2019.
- */
+
 class SettingsFragment: BaseFragment(),
     SettingsContract.View {
     private var mPresenter: SettingsContract.Presenter? = null

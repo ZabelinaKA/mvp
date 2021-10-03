@@ -9,9 +9,6 @@ import com.trateg.basemvp.SecondFragment.SecondFragment
 import com.trateg.basemvp.util.FragMan
 
 
-/**
- * Created by hanilozmen on 8/24/2019.
- */
 abstract class HomePresenter(var mView: HomeContract.View?) :
     HomeContract.Presenter {
 

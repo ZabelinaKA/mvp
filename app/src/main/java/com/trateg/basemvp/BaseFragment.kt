@@ -6,9 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-/**
- * Created by hanilozmen on 8/24/2019.
- */
+
 abstract class BaseFragment: Fragment() {
 
     override fun onCreateView(

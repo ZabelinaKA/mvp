@@ -3,9 +3,7 @@ package com.trateg.basemvp.main
 import android.os.Bundle
 import com.trateg.basemvp.util.FragMan
 
-/**
- * Created by hanilozmen on 8/24/2019.
- */
+
 class MainPresenter(private var mView: MainContract.View?):
     MainContract.Presenter {
 

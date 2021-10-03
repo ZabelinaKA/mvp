@@ -9,9 +9,7 @@ import com.trateg.basemvp.BaseFragment
 import com.trateg.basemvp.R
 import kotlinx.android.synthetic.main.fragment_profile.*
 
-/**
- * Created by hanilozmen on 8/24/2019.
- */
+
 class ProfileFragment: BaseFragment(),
     ProfileContract.View {
     private lateinit var mRootView : View

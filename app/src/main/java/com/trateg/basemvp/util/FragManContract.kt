@@ -6,9 +6,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.trateg.basemvp.BaseFragment
 import java.io.Serializable
 
-/**
- * Created by hanilozmen on 8/28/2019.
- */
+
 abstract class FragManContract {
     // bottom navigation related
     abstract fun init(fragmentManager: FragmentManager, bottomNavigationView: BottomNavigationView, containerId: Int, isRestored: Boolean)

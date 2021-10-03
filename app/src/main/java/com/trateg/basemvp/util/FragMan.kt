@@ -12,9 +12,6 @@ import com.trateg.basemvp.profile.ProfilePresenter
 import com.trateg.basemvp.settings.SettingsPresenter
 import java.io.Serializable
 
-/**
- * Created by hanilozmen on 8/25/2019.
- */
 
 object FragMan : FragManContract() {
 

@@ -4,9 +4,7 @@ import android.os.Bundle
 import com.trateg.basemvp.BaseFragment
 import com.trateg.basemvp.util.FragMan
 
-/**
- * Created by hanilozmen on 8/24/2019.
- */
+
 class ProfilePresenter(var mView: ProfileContract.View?):
     ProfileContract.Presenter {
     companion object {
